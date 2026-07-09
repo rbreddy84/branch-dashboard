@@ -28,7 +28,7 @@ if uploaded_file is not None:
         branch_col = "Name of the Branch"
         district_col = "District"
         target_col = "Target for June 2026"
-        achieved_col = "Achieved as aon 21-06-2026"
+        achieved_col = "Achieved as aon 30-06-2026"
         percent_col = "Percentage of achivement to Target"
         nodal_col = "Nodal Officer"
         co_col = "Controlling Officer"
