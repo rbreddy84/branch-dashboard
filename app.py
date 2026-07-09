@@ -105,7 +105,7 @@ if uploaded_file is not None:
         st.divider()
 
         # --- NEW: Top 5 and Bottom 5 Leaderboards ---
-        st.markdown("### 🥇 Top 5 & ⚠️ Bottom 5 Performers")
+        st.markdown("### 🥇 Best Performing 5 & ⚠️ Least Performing 5 Performers")
         
         # Extract the necessary columns for a clean table view
         display_cols = [branch_col, district_col, percent_col] if district_col in df.columns else [branch_col, percent_col]
